@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ladalinda.github.io/co6/sitemap.xml

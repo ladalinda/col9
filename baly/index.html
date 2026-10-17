@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Калькулятор баллов ICETEX: сколько баллов у вас может быть из 101</title>
+<meta name="description" content="Посчитайте свои баллы по правилам набора 2026 года: средний балл, опыт, город, страна. Максимум 101.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="Калькулятор баллов ICETEX: сколько баллов у вас может быть из 101">
+<meta property="og:description" content="Посчитайте свои баллы по правилам набора 2026 года: средний балл, опыт, город, страна. Максимум 101.">
+<meta property="og:url" content="https://ladalinda.github.io/co6/baly/">
+<meta property="og:site_name" content="Колумбия с ICETEX">
+<meta property="og:image" content="https://ladalinda.github.io/co6/assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Калькулятор баллов ICETEX: сколько баллов у вас может быть из 101">
+<meta name="twitter:description" content="Посчитайте свои баллы по правилам набора 2026 года: средний балл, опыт, город, страна. Максимум 101.">
+<meta name="twitter:image" content="https://ladalinda.github.io/co6/assets/img/og.png">
+<meta name="theme-color" content="#FFC94A">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Comfortaa:wght@700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+
+<!-- Плашка про ближайший набор: одинаковая на всех страницах -->
+<div class="notice" role="note">
+ <div class="notice__inner">
+  <p>Следующий приём заявок по стипендии ICETEX: <mark class="hl hl--strong">весна 2027</mark>. <a href="../sroki/">Подробнее о сроках →</a></p>
+ </div>
+</div>
+
+<header class="site-header">
+ <div class="site-header__inner">
+  <a class="logo" href="../" aria-label="На главную"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="27" cy="12" r="6" fill="#FFC94A" stroke="#3B3A4A" stroke-width="2"/><path d="M3 34 L15 14 L22 25 L27 19 L37 34 Z" fill="#BFE6D0" stroke="#3B3A4A" stroke-width="2" stroke-linejoin="round"/></svg><span>Колумбия <em>с ICETEX</em></span></a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Меню</button>
+  <nav class="nav" id="site-nav" aria-label="Основное меню">
+   <a href="../obo-mne/">Обо мне</a><a href="../varianty/">Варианты</a><a href="../katalog/">Программы</a><a href="../goroda/">Города</a><a href="../sroki/">Сроки</a><a href="../baly/" aria-current="page">Баллы</a><a href="../usloviya/">Условия</a><a href="../byudzhet/">Жизнь</a><a href="../uslugi/">Услуги</a>
+   <a class="btn" href="../test/">Пройти тест</a>
+  </nav>
+ </div>
+</header>
+
+<main id="main">
+<section class="page-head"><div class="container"><nav class="crumbs" aria-label="Хлебные крошки"><a href="../">Главная</a> / Калькулятор баллов</nav><h1>Сколько баллов у вас может быть?</h1><p class="lead">Всего можно набрать <mark class="hl">до 101 балла</mark>. Выберите свои значения, и калькулятор покажет итог, а под таблицей я объясню, как его читать.</p><span class="checked">Проверено по <span data-cfg-date>набору 2026 года</span></span></div></section>
+<section class="section" style="padding-top:8px"><div class="container">
+ <div class="grid grid--2" style="align-items:start">
+  <form id="calc" class="card form" onsubmit="return false" aria-label="Калькулятор баллов">
+   <div class="calc-grid">
+    <div class="field"><label for="gpa">Средний балл бакалавриата (по шкале до 5.0)</label>
+     <select id="gpa" name="gpa">
+      <option value="-1">Ниже 4.0</option>
+      <option value="5" selected>4.0–4.2</option>
+      <option value="10">4.3–4.5</option>
+      <option value="20">4.6–4.8</option>
+      <option value="35">4.9–5.0</option>
+     </select></div>
+    <div class="field"><label for="exp">Опыт после диплома по теме программы</label>
+     <select id="exp" name="exp">
+      <option value="-1">Меньше 1 года</option>
+      <option value="5" selected>1 год</option>
+      <option value="10">Больше 1 года, до 3 лет</option>
+      <option value="20">От 3 до 5 лет</option>
+      <option value="30">Больше 5 лет</option>
+     </select></div>
+    <div class="field"><label for="city">Город университета</label>
+     <select id="city" name="city">
+      <option value="20">Малый город (20 баллов)</option>
+      <option value="10">Средний город (10 баллов)</option>
+      <option value="5" selected>Богота, Медельин, Кали, Барранкилья (5 баллов)</option>
+     </select><small>Какой город к какой группе относится, смотрите на странице <a href="../goroda/">«Города»</a>.</small></div>
+    <div class="field"><label for="country">Страна</label>
+     <select id="country" name="country">
+      <option value="15" selected>Россия (15 баллов)</option>
+      <option value="0">Казахстан, Беларусь (0 баллов)</option>
+      <option value="0">Другая страна (проверьте список в правилах набора)</option>
+     </select><small>15 баллов даётся, если страна есть в списке набора. Россия в нём есть, Казахстана и Беларуси нет.</small></div>
+    <div class="field"><label for="gender">Пол</label>
+     <select id="gender" name="gender">
+      <option value="1" selected>Женщина (+1 балл)</option>
+      <option value="0">Мужчина (0 баллов)</option>
+     </select></div>
+   </div>
+   <p class="callout callout--coral" id="calc-warn" role="alert" hidden></p>
+  </form>
+  <div class="card card--sun" aria-live="polite">
+   <p class="note" style="margin:0">Ваш итог:</p>
+   <p class="result__score"><span id="calc-total">0</span> <small>из 101</small></p>
+   <div class="meter" role="progressbar" aria-valuemin="0" aria-valuemax="101" aria-valuenow="0" aria-label="Баллы"><i id="calc-meter"></i></div>
+   <ul id="calc-parts"></ul>
+   <p class="count-note">Это ориентир, потому что решение принимает комитет ICETEX.</p>
+  </div>
+ </div>
+
+ <div class="text prose" style="margin-top:36px">
+  <h2>Из чего складываются баллы?</h2>
+  <div class="table-wrap "><table><thead><tr><th scope="col">Что считаем</th><th scope="col">Как получить баллы</th><th scope="col">Максимум</th></tr></thead><tbody><tr><td><strong>Средний балл бакалавриата</strong></td><td>4.0–4.2: 5. До 4.5: 10. До 4.8: 20. До 5.0: 35</td><td>35</td></tr><tr><td><strong>Опыт после диплома</strong></td><td>1 год: 5. До 3 лет: 10. До 5 лет: 20. Больше 5 лет: 30</td><td>30</td></tr><tr><td><strong>Город университета</strong></td><td>Малый город: 20. Средний: 10. Богота, Медельин, Кали, Барранкилья: 5. Города на странице «<a href="../goroda/">Города</a>»</td><td>20</td></tr><tr><td><strong>Страна</strong></td><td>15, если страна есть в списке набора. Россия в нём есть. Казахстана и Беларуси нет, у вас 0</td><td>15</td></tr><tr><td><strong>Пол</strong></td><td>Женщинам +1</td><td>1</td></tr></tbody></table></div>
+  <h2 id="rossiyane">Сколько стипендий<br>и сколько россиян их получали?</h2>
+  <p>В год выдают всего <mark class="hl">70 стипендий</mark> на все страны. Вот что я знаю о победителях из России.</p>
+  <div class="table-wrap "><table><thead><tr><th scope="col">Год</th><th scope="col">Победителей из России</th><th scope="col">Университет и программа</th></tr></thead><tbody><tr><td>2026</td><td>2</td><td>Universidad Icesi, магистратура (MBA), Кали. Universidad de Medellín, магистратура (MBA), Медельин (это я)</td></tr><tr><td>2025</td><td>0</td><td>Среди победителей россиян не было</td></tr><tr><td>2024</td><td>0</td><td>Среди победителей россиян не было</td></tr><tr><td>2023</td><td>2</td><td>Universidad de los Andes, магистратура по промышленной инженерии, Богота. Universidad Distrital Francisco José Caldas, магистратура по прикладной лингвистике в преподавании английского, Богота</td></tr></tbody></table></div><p>Это не прогноз, а просто картина прошлых лет. Заявки из России выигрывают редко, поэтому баллы и подготовка важны.</p>
+  <h2>Как читать результат?</h2>
+  <p>Это ориентир, потому что решение принимает комитет ICETEX, и на 1 страну в одном наборе приходится <mark class="hl">не больше 5 стипендий</mark>. Если у нескольких людей баллы одинаковые, выше оказывается тот, чья страна есть в списке, затем тот, у кого выше средний балл, потом тот, чья программа в малом городе, а последним учитывается, кто подал заявку раньше.</p>
+  <div class="card card--sun cta-box"><h3>Хочется набрать больше?</h3><p>Запишитесь на консультацию, и мы вместе посмотрим, где можно усилить заявку.</p><div class="btn-row"><a class="btn " href="../uslugi/#zapis">Записаться на консультацию</a><a class="btn btn--ghost" href="../goroda/">Выбрать город</a></div></div>
+ </div>
+</div></section>
+
+</main>
+
+<div class="float-cta"><a class="btn" href="../test/">Пройти тест</a></div>
+
+<footer class="site-footer">
+ <div class="container">
+  <div class="footer__grid">
+   <div class="footer__about">
+    <a class="logo" href="../" style="color:#fff"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="27" cy="12" r="6" fill="#FFC94A" stroke="#3B3A4A" stroke-width="2"/><path d="M3 34 L15 14 L22 25 L27 19 L37 34 Z" fill="#BFE6D0" stroke="#3B3A4A" stroke-width="2" stroke-linejoin="round"/></svg><span>Колумбия с ICETEX</span></a>
+    <p style="margin-top:12px">Помогаю разобраться, как поступить и учиться в Колумбии по стипендии ICETEX. Я Лада, сама учусь по ней.</p>
+    <p><a data-cfg="instagram" class="is-todo " href="#">Блог</a> · <a data-cfg="telegram" class="is-todo " href="#">Telegram</a> · <a data-cfg="vk" class="is-todo " href="#">ВКонтакте</a> · <a data-cfg="email" class="is-todo " href="#">Email</a></p>
+   </div>
+   <div><h4>Узнать</h4><ul><li><a href="../test/">Тест: подхожу ли я</a></li><li><a href="../baly/">Калькулятор баллов</a></li><li><a href="../varianty/">Что можно выбрать</a></li><li><a href="../goroda/">Города</a></li><li><a href="../sroki/">Календарь</a></li><li><a href="../plan/">План поступления</a></li><li><a href="../dokumenty/">Документы</a></li><li><a href="../katalog/">Каталог программ</a></li></ul></div>
+   <div><h4>Ещё</h4><ul><li><a href="../usloviya/">Условия стипендии</a></li><li><a href="../ispanskij/">Испанский язык</a></li><li><a href="../byudzhet/">Жизнь в Колумбии</a></li><li><a href="../voprosy/">Частые вопросы</a></li><li><a href="../slovar/">Словарик</a></li></ul></div>
+   <div><h4>Лада</h4><ul><li><a href="../obo-mne/">Обо мне</a></li><li><a href="../uslugi/">Мои услуги</a></li></ul></div>
+  </div>
+  <div class="disclaimer">
+   <p>Этот сайт ведёт частное лицо, студентка программы ICETEX, и он не связан с ICETEX, Министерством иностранных дел Колумбии или другими государственными организациями. Информация основана на публичных документах набора 2026 года и может измениться, поэтому актуальные условия лучше сверять на официальном сайте ICETEX. Стипендию и зачисление в университет гарантировать невозможно, потому что решение принимают комитет ICETEX и университет.</p>
+   <p>Официальные документы: <a data-cfg="catalog" href="#">каталог программ</a> (PDF) · <a data-cfg="info" href="#">инфографика</a> (PDF, английский)</p>
+   <p>© Лада, 2026</p>
+  </div>
+ </div>
+</footer>
+
+<script src="../assets/js/config.js"></script>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

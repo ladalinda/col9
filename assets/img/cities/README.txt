@@ -1,0 +1,35 @@
+Пока здесь лежат нарисованные иллюстрации (.svg). Настоящее фото с тем же именем в формате .jpg (ниже список) заменит иллюстрацию автоматически.
+
+Сюда кладите фото городов (jpg, примерно 800x500). Имена файлов:
+popayan.jpg  (Попаян)
+sincelejo.jpg  (Синселехо)
+tulua.jpg  (Тулуа)
+palmira.jpg  (Пальмира)
+yopal.jpg  (Йопал)
+tunja.jpg  (Тунха)
+mocoa.jpg  (Мокоа)
+puerto-colombia.jpg  (Пуэрто-Колумбия)
+sabaneta.jpg  (Сабанета)
+envigado.jpg  (Энвигадо)
+santa-rosa-de-osos.jpg  (Санта-Роса-де-Осос)
+santa-rosa-de-cabal.jpg  (Санта-Роса-де-Кабаль)
+riohacha.jpg  (Риоача)
+cartagena.jpg  (Картахена)
+bucaramanga.jpg  (Букараманга)
+santa-marta.jpg  (Санта-Марта)
+pereira.jpg  (Перейра)
+manizales.jpg  (Манисалес)
+cucuta.jpg  (Кукута)
+ibague.jpg  (Ибаге)
+villavicencio.jpg  (Вильявисенсио)
+monteria.jpg  (Монтерия)
+pasto.jpg  (Пасто)
+armenia.jpg  (Армения)
+neiva.jpg  (Нейва)
+bogota.jpg  (Богота)
+medellin.jpg  (Медельин)
+cali.jpg  (Кали)
+barranquilla.jpg  (Барранкилья)
+
+Бесплатные источники: Wikimedia Commons (нужна подпись автора для лицензий CC BY), Unsplash, Pexels, Pixabay.
+Если файла нет, картинка просто не показывается.
